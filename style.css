@@ -1,0 +1,47 @@
+body {
+	color: #FF0000;
+	font-size: 13px;
+	line-height: 1.5;	/* line-height: 行間の値（正確には、フォントサイズと上下の余白合計値） ;  行間の指定*/
+}
+/* ○○%というフォントの表示のしかたは、入れ子の大きいほうが先に指定されていたら、そこに対しての％で表示されている */
+h2 {
+	font-size: 185%;
+	border-left: 15px solid #668800;	/* ボックスモデル:文字の左側に緑色の ■ を表示させる */
+	padding-left: 10px;
+}
+
+h3 {
+	padding: 5px;
+	border: 1px solid #668800;
+	font-size: 154%;
+}
+
+h4 {
+	font-size: 124%;
+}
+
+table{
+	border: 1px solid #666666;
+	border-collapse: collapse;
+}
+
+th {
+	border: 1px solid #999999;
+	padding: 10px;
+	background-color: #CCCCCC;
+
+}
+
+td {
+	border: 1px solid #999999;
+	padding: 10px;
+	background-color: #eeeeee;
+}
+
+address {
+	font-size: 85%;
+	font-style: normal;		/* font-style: oblique;		addressの斜線表示を普通の表記にする*/
+	text-align: right;
+	border-top: 1px solid #000000;
+	padding-top: 10px;
+}
