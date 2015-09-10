@@ -2,7 +2,16 @@ body {
 	color: #FF0000;
 	font-size: 13px;
 	line-height: 1.5;	/* line-height: 行間の値（正確には、フォントサイズと上下の余白合計値） ;  行間の指定*/
+	text-align: center;
 }
+
+#wrap {
+	width: 770px;		/* 表示させるサイトの幅を指定 */
+	margin :0 auto;		/* サイトを中央揃えにする設定 */
+	text-align: left;
+	
+}
+
 /* ○○%というフォントの表示のしかたは、入れ子の大きいほうが先に指定されていたら、そこに対しての％で表示されている */
 h2 {
 	font-size: 185%;
@@ -14,6 +23,7 @@ h3 {
 	padding: 5px;
 	border: 1px solid #668800;
 	font-size: 154%;
+	clear:left;		/* よく使う */
 }
 
 h4 {
@@ -44,4 +54,35 @@ address {
 	text-align: right;
 	border-top: 1px solid #000000;
 	padding-top: 10px;
+	clear:left;		/* よく使う */
+}
+
+.itemphoto {
+	float:left;
+	margin-right: 20px;
+	margin-bottom: 50px;
+}
+
+ul{
+	background-color: #88aa00;
+	padding: 10px 20px;
+}
+
+li {
+	list-style-type: square;	/*　none; マーカーなしの指定 */
+	display: inline;
+	padding-right: 20px;
+}
+
+li a:link{					/* 未訪問時のリンク */
+	color: #FFFFFF;			/* 白 */
+}
+
+li a:visited{				/* 未訪問済のリンク */
+	color: #eeee00;			/* 黄色  */
+}
+
+li a:hover{
+	color: #000000;			/* 黒  */
+	text-decoration: none;	/* ポインタを合わせたときのリンク */
 }
