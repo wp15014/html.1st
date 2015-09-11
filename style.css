@@ -90,7 +90,7 @@ li a:hover{
 } */
 
 ul {
-	list-style-type: none;
+	list-style-type: none;  /* マーカーなし */
 	margin: 0;
 	padding: 0;
 	font-size: 12px;
